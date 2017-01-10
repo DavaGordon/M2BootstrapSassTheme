@@ -1,0 +1,23 @@
+{
+    "name": "suttonsilver/blank",
+    "authors": [
+        "Daniel Coull <d.coull@suttonsilver.co.uk>"
+    ],
+    "description": "",
+    "main": "",
+    "license": "MIT",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap-sass": "boostrap-sass#^3.3.7",
+        "font-awesome": "^4.7.0",
+        "animate-sass": "0.6.2"
+    }
+}

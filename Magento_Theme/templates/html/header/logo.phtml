@@ -1,0 +1,18 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * @var \Magento\Theme\Block\Html\Header\Logo $block
+ */
+?>
+<?php $storeName = $block->getThemeName() ? $block->getThemeName() : $block->getLogoAlt();?>
+<a class="navbar-brand" href="<?php echo $block->getUrl(''); ?>" title="<?php echo $storeName ?>">
+    <img src="<?php echo $block->getLogoSrc() ?>"
+         alt="<?php echo $block->getLogoAlt() ?>"
+        <?php echo $block->getLogoWidth() ? 'width="' . $block->getLogoWidth() . '"' : '' ?>
+        <?php echo $block->getLogoHeight() ? 'height="' . $block->getLogoHeight() . '"' : '' ?>
+    />
+</a>
